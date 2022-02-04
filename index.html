@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<title> 3.4 </title>
+<body>
+
+
+<h1>3.4 Assignment</h1>
+
+    <button onclick="d()"> what is today?</button>
+
+    <script>
+    function d() {
+    document.getElementById("date").innerHTML = Date();
+    }
+    </script>
+    <p id="date"></p>
+    <h3>Here is an object with multiple properties:</h3>
+<p id="dog"></p>
+    
+
+<script>
+
+    const dog = {weight:"10 pounds, ", breed:"chihuahua, ", furColor:"brown, "};
+    
+    
+    
+    document.getElementById("dog").innerHTML ="<h4>The dog has the following features:</h4>" + dog.weight+ dog.breed + dog.furColor;
+    </script>
+
+
+</body>
+</html>
